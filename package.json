@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "npm run build && strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@strapi/plugin-i18n": "4.14.5",
+    "@strapi/plugin-users-permissions": "4.14.5",
+    "@strapi/strapi": "4.14.5",
+    "better-sqlite3": "8.6.0",
+    "stripe": "^14.3.0"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "6.x"
+  },
+  "strapi": {
+    "uuid": "a1757f24-baac-4477-b0a7-adb4df823722"
+  }
+}
