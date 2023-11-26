@@ -10,7 +10,7 @@
   "scripts": {
     "build": "strapi build",
     "develop": "strapi develop",
-    "start": "node --max_old_space_size=2560 server.js",
+    "start": "strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -22,8 +22,8 @@
     "stripe": "^14.3.0"
   },
   "engines": {
-    "node": "16.x",
-    "npm": "6.x"
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
   },
   "strapi": {
     "uuid": "a1757f24-baac-4477-b0a7-adb4df823722"
