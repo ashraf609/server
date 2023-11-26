@@ -10,7 +10,7 @@
   "scripts": {
     "build": "strapi build",
     "develop": "strapi develop",
-    "start": "npm run build && strapi start",
+    "start": "node --max_old_space_size=2560 server.js",
     "strapi": "strapi"
   },
   "dependencies": {
